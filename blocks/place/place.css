@@ -1,7 +1,7 @@
 .place {
   max-width: 100%;
   padding: 92px 0 0;
-  margin: 0;
+  margin: 0 148px;
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: repeat (4, max-content);
@@ -10,4 +10,34 @@
 
 .place:not(:first-of-type) {
   padding-top: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    margin: 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    padding-top: 88px;
+    margin: 0 24px;
+  }
+
+  .place:not(:first-of-type) {
+    padding-top: 73px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    padding-top: 64px;
+    margin: 0 16px;
+  }
+
+  .place:not(:first-of-type) {
+    padding-top: 50px;
+  }
+
 }

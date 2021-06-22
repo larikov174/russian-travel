@@ -3,27 +3,28 @@
   padding-top: 28px;
   margin: 0 48px;
   display: grid;
-  grid-template-columns: fit-content(176px) 1fr fit-content(30px) fit-content(30px);
+  grid-template-columns: repeat(2, 1fr) repeat(2, max-content);
   grid-template-rows: max-content;
-  grid-gap: 0em 18px;
+  grid-gap: 0 18px;
   align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    margin: 0 auto;
+    max-width: 928px;
+    margin: 0 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    margin: 0 3.1%;
+    max-width: 720px;
+    margin: 0 24px;
   }
 }
 
 @media screen and (max-width: 340px) {
   .header {
-    margin: 0 5%;
-    grid-template-columns: fit-content(144px) fit-content(22px) fit-content(22px);
+    margin: 0 16px;
   }
 }

@@ -7,7 +7,8 @@
   transition: opacity 0.3s;
   grid-area: 1 / 4 / 2 / 5;
   width: 30px;
-  align-self: center;
+  position: relative;
+  top: 4px;
 }
 
 .header__lang-link_En:hover {
@@ -18,5 +19,7 @@
 @media screen and (max-width: 320px) {
   .header__lang-link_En {
     width: 22px;
+    font-size: 18px;
+    line-height: 1.11;
   }
 }
