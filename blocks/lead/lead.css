@@ -1,0 +1,21 @@
+.lead {
+  padding-top: 56px;
+  margin: 0 148px;
+  display: grid;
+  grid-template-columns: minmax(320px, 984px);
+  grid-template-rows: 1fr 1fr fit-content(min-content) max-content;
+  grid-gap: 0em 0px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin: 0 4.7%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .lead {
+    margin: 0;
+  }
+}

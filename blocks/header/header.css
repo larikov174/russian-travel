@@ -1,0 +1,29 @@
+.header {
+  max-width: 1184px;
+  padding-top: 28px;
+  margin: 0 48px;
+  display: grid;
+  grid-template-columns: fit-content(176px) 1fr fit-content(30px) fit-content(30px);
+  grid-template-rows: max-content;
+  grid-gap: 0em 18px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 0 3.1%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .header {
+    margin: 0 5%;
+    grid-template-columns: fit-content(144px) fit-content(22px) fit-content(22px);
+  }
+}

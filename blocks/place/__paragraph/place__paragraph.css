@@ -1,0 +1,15 @@
+.place__paragraph {
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 48px;
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.place__paragraph:not(:first-of-type) {
+  padding-top: 26px;
+  grid-area: 4 / 2 / 5 / 3;
+}

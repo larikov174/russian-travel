@@ -1,0 +1,22 @@
+.header__lang-link_En {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #ffffff;
+  transition: opacity 0.3s;
+  grid-area: 1 / 4 / 2 / 5;
+  width: 30px;
+  align-self: center;
+}
+
+.header__lang-link_En:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link_En {
+    width: 22px;
+  }
+}
