@@ -1,7 +1,6 @@
 .photo-grid__item {
   box-sizing: border-box;
   width: 284px;
-  height: 213px;
   border: 1px solid #000000;
 }
 

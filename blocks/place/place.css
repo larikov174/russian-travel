@@ -12,15 +12,16 @@
   padding-top: 80px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
   .place {
     grid-template-columns: fit-content(440px) fit-content(456px);
     grid-column-gap: 40px;
     margin: 0 48px;
+    justify-content: center;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .place {
     padding-top: 88px;
     grid-template-columns: fit-content(340px) fit-content(352px);
@@ -33,7 +34,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .place {
     padding-top: 64px;
     grid-template-columns: 1fr;

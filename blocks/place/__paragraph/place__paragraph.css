@@ -12,13 +12,13 @@
   padding-top: 25px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .place__paragraph {
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .place__paragraph {
     padding-top: 0;
   }
