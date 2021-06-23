@@ -1,4 +1,22 @@
 .cover__link {
+  display: block;
   text-decoration: none;
   color: #ffffff;
+}
+
+.cover__link::after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #2a2c2f;
+  opacity: 30%;
+  transition: opacity 0.3s;
+}
+
+.cover__link:hover::after {
+  opacity: 80%;
 }

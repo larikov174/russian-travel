@@ -6,10 +6,20 @@
   color: #ffffff;
   margin: 0;
   padding-top: 48px;
-  grid-area: 3 / 2 / 4 / 3;
 }
 
 .place__paragraph:not(:first-of-type) {
-  padding-top: 26px;
-  grid-area: 4 / 2 / 5 / 3;
+  padding-top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    padding-top: 0;
+  }
 }

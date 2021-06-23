@@ -7,9 +7,8 @@
   color: #ffffff;
   transition: opacity 0.3s;
   margin: 0;
-  padding: 0;
-  grid-area: 2 / 2 / 3 / 3;
-  align-self: end;
+  display: block;
+  padding-top: 12px;
 }
 
 .place__link:hover {

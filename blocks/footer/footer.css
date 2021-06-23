@@ -6,3 +6,24 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 780px) {
+  .footer {
+    margin: 0 24px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .footer {
+    flex-direction: column;
+    padding-top: 44px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    margin-left: 16px;
+    padding-top: 64px;
+  }
+}
