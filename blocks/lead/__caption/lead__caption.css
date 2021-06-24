@@ -9,3 +9,24 @@
   grid-area: 4 / 1 / 5 / 2;
   justify-self: start;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    margin: 0 48px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin: 0 24px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    margin: 0 16px;
+  }
+
+}
