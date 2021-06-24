@@ -1,4 +1,4 @@
-# **Проект:** [Путешествие по России](https://github.com/larikov174/russian-travel/index.html)
+<h1>Проект: <a href="https://github.com/larikov174/russian-travel/index.html" target="_blank">Путешествие по России</a></h1>
 
 ## Описание:
 
@@ -21,4 +21,5 @@
 #
 
 > Макет предоставлен: **Яндекс.Практикум.**
+
 > &copy;2021. Лариков Андрей
