@@ -3,6 +3,7 @@
   grid-area: 1 / 1 / 2 / 2;
   width: 176px;
   height: 52px;
+  justify-self: start;
 }
 
 @media screen and (max-width: 320px) {

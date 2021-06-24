@@ -3,9 +3,7 @@
   padding-top: 28px;
   margin: 0 48px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr) repeat(2, max-content);
-  grid-template-rows: max-content;
-  grid-gap: 0 18px;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
 
