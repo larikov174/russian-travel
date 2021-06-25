@@ -6,7 +6,6 @@
 
 .cover__link::after {
   z-index: -1;
-  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -15,6 +14,7 @@
   background: #2a2c2f;
   opacity: 30%;
   transition: opacity 0.3s;
+  content: "";
 }
 
 .cover__link:hover::after {

@@ -24,6 +24,6 @@
 @media screen and (max-width: 320px) {
   .footer {
     margin-left: 16px;
-    padding-top: 64px;
+    padding-top: 64px;  /*в макете отступ написан 64px, при наложении в pixel perfect примерно 36px. Такие вещи надо с дизайнером согласовывать?*/
   }
 }
