@@ -25,7 +25,6 @@
     padding-top: 88px;
     grid-template-columns: fit-content(340px) fit-content(352px);
     grid-column-gap: 28px;
-    justify-content: center;
   }
 
   .place:not(:first-of-type) {
@@ -43,4 +42,3 @@
     padding-top: 50px;
   }
 }
-
